@@ -12,7 +12,7 @@ To write and execute an Assembly Language Program for sorting data in Ascending 
 2. Get the first two elements into two registers.  
 3. Compare the two elements:  
    - If the value in register **R0** is lower, exchange **A** and **R0** data.  
-   - Otherwise, increment pointer and decrement register **R7**.  
+   - Otherwise, increment pointer and decrement register **R7**. 
 4. Check if **R7 = 0** → if yes, move the register **R0 & A**.  
 5. Increment pointer and decrement **R7**.  
 6. If **R7 ≠ 0**, repeat from Step 2.  
